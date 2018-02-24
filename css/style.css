@@ -1,12 +1,46 @@
 body {
-  margin: 0 auto;
-  max-width: 50em;
   font-family: "Helvetica", "Arial", sans-serif;
   color: #555;
   line-height: 1.5;
-  padding: 4em 1em;
+  margin: 0 auto;
+}
+
+.center {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.navbar {
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  padding: 2em 2em;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li span {
+  display: block;
+  color: #555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li span:hover{
+  cursor: default;
 }
